@@ -1,0 +1,23 @@
+N,Campo,Descrição,Tipo,Tam,Dec,Obrig
+01,REG,"Texto fixo contendo ""0000"".",C,004,-,O
+02,COD_VER,Código da versão do leiaute conforme a Tabela indicada no Ato Cotepe.,N,003*,-,O
+03,COD_FIN,"Código da finalidade do arquivo:
+0: Remessa do arquivo original; ou
+1: Remessa do arquivo substituto.",N,001,-,O
+04,DT_INI,Data inicial das informações contidas no arquivo.,N,008*,-,O
+05,DT_FIN,Data final das informações contidas no arquivo.,N,008*,-,O
+06,NOME,Nome empresarial da entidade.,C,100,-,O
+07,CNPJ,Número de inscrição da entidade no CNPJ.,N,014*,-,OC
+08,CPF,Número de inscrição da entidade no CPF.,N,011*,-,OC
+09,UF,Sigla da UF da entidade.,C,002*,-,O
+10,IE,IE da entidade.,C,014,-,O
+11,COD_MUN,"Código do Município do domicílio fiscal da entidade, conforme a Tabela IBGE.",N,007*,-,O
+12,IM,Inscrição Municipal da entidade.,C,-,-,OC
+13,SUFRAMA,Inscrição da entidade na Suframa.,C,009*,-,OC
+14,IND_PERFIL,"Perfil de apresentação do arquivo fiscal:
+A: Perfil A;
+B: Perfil B; ou
+C: Perfil C.",C,001,-,O
+15,IND_ATIV,"Indicador de tipo de atividade:
+0: Industrial ou equiparado a industrial; ou
+1: Outros.",N,001,-,O
